@@ -53,7 +53,12 @@ main ul li::marker {
 }
 
 .slot-data {
+  display: flex;
+  flex-direction: column;
   border-radius: 20px;
+}
+.slot-data .row {
+  flex: 1;
 }
 .slot-data section {
   text-align: center;
