@@ -10,7 +10,7 @@ body {
 }
 
 #app {
-  margin: 25px 25px 10px 25px;
+  margin: 25px;
 }
 
 header .logo {
@@ -108,5 +108,12 @@ main ul li::marker {
   main {
     display: flex;
     gap: 20px;
+  }
+}
+
+@media only screen and (min-width: 780px) {
+  #app {
+    max-width: 730px;
+    margin: 25px auto;
   }
 }
